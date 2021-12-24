@@ -1,0 +1,130 @@
+
+*{
+padding: 0;
+margin: 0;
+}
+
+html, body 
+{
+   height: 100%;
+    overflow:hidden;
+}
+
+body{
+  box-sizing: border-box;
+   background: #121212;
+   font-family:  Helvetica, sans-serif, Arial;
+}
+
+/* Navbar */
+
+
+.navbar-brand img{
+  width: 150px;
+  height: 60px;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navbar-nav > li > a{
+  font-size: 0.8rem;
+}
+
+.nav-link{
+    
+    font-size: 1rem;
+}
+
+
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+
+.hover-underline-animation:hover{
+  color: #ffffff;
+
+}
+
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: #E62B1E;
+  background-color: #E62B1E;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} 
+
+.navbar-bg{
+  position: absolute;
+left: 47.38%;
+right: -6.51%;
+top: -3.01%;
+bottom: 96.68%;
+transform: rotate(1.99deg);
+}
+
+.navbar-ellipse-bg{
+  position: absolute;
+width: 698px;
+height: 698px;
+left: -50px;
+top: -10px;
+}
+
+
+
+
+
+
+
+/* hero-section */
+
+.hero-text img{
+
+  position: relative;
+width: 400px;
+height: 350px;
+left: 96px;
+top: 150px;
+
+}
+
+.hero-image img{
+  position: absolute;
+left: 44.84%;
+right: 2.18%;
+top: 100px;
+bottom: 76.6%;
+
+height: 500px;
+width: 700px;
+
+}
+
+.heropage-bg{
+  position: absolute;
+left: -38.91%;
+right: -16.37%;
+top: -4.18%;
+bottom: 87.56%;
+
+opacity: 0.87;
+transform: rotate(30deg);
+}
